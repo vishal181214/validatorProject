@@ -1,0 +1,511 @@
+
+.logo{
+  width: 10vw;
+  height: 5vh;
+}
+
+.linkMenu{
+  color: white !important;
+  font-size: 18px !important;
+  margin-right: 3vw;
+}
+
+.borWhite{
+  border-bottom: 5px solid white;
+  border-right: 5px solid white;
+}
+
+.teamImage{
+  width: 100vw;
+  height: 80vh;
+  background-image: url('./Images/team-banner.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.teamText{
+  color: white;
+  position: absolute;
+  left: 20vw;
+  bottom: 15vh;
+}
+
+.tech{
+  font-size: 40px;
+  font-weight: bold;
+  margin-left: 6.5%;
+}
+
+.teens{
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 5vh;
+}
+
+.who{
+  width: 80vw;
+  height: 45vh;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  padding: 3% 0%;
+}
+
+.whoText{
+  width: 50vw;
+  height: 30vh;
+}
+
+.hrdiv{
+  width: 15vw;
+  height: 5px;
+  margin-left: 5vw;
+  color: rgb(193, 52, 76);
+  background-color: rgb(202, 71, 93);
+  border-radius: 5px;
+  margin-bottom: 1%;
+}
+
+.whoImg{
+  background-image: url('https://rubixe.com/assets/img/aboutus/about-us.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 25vw;
+  height: 30vh;
+  margin-left: 5vw;
+  position: relative;
+}
+
+.divColor{
+  width: 20vw;
+  height: 12vh;
+  background-color: rgb(2, 67, 2);
+  opacity: 0.9;
+  position: absolute;
+  bottom: -4vh;
+  right: 0;
+}
+
+.started{
+  width: 100vw;
+  height: 20vh;
+  background-color: rgb(200, 55, 103);
+}
+
+.startText{
+  padding: 2vh;
+  width: 80vw;
+  height: 20vh;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+
+.techTeam{
+  width: 100vw;
+  height: 70vh;
+  padding: 2%;
+  background-color: rgb(214, 212, 212);
+}
+
+.techTeam h4{
+  margin-left: 9%;
+}
+
+.card-container{
+  margin-top: 4%;
+  width: 80vw;
+  height: 40vh;
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-container .card{
+  width: 15vw;
+  height: 40vh;
+  background-color: #f5f4f3;
+  border-radius: 20px;
+  border: none;
+}
+
+.card-container .cardTwo{
+  width: 15vw;
+  height: 40vh;
+  margin-top: 3%;
+  border-radius: 20px;
+  background-color: #f5f4f3;
+  position: relative;
+}
+
+.head{
+  width: 15vw;
+  height: 4vh;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  background-color: blue;
+  position: relative;
+}
+
+.colour{
+  background-color: rgb(37, 37, 119);
+}
+
+.colour .one{
+  background-color:rgb(180, 210, 219);
+  color: rgb(37, 37, 119);
+  border: none;
+}
+
+.orang{
+  background-color: orangered;
+}
+
+.orang .one{
+  background-color:rgb(180, 210, 219);
+  color: orangered;
+  border: none;
+}
+
+.timcol{
+  background-color: sienna;
+}
+
+.timcol .one{
+  background-color:rgb(180, 210, 219);
+  color:sienna;
+}
+
+.one{
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  position: absolute;
+  padding-top: 3px;
+  left: 6vw;
+  bottom: 0vh;
+}
+
+.one span{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.cardImg{
+  width: 15vw;
+  height: 16vh;
+  margin-left: -1px;
+}
+
+.oneImg{
+  width:80px;
+  height: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3vh;
+  background-image: url('./Images/ai.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.threeImg{
+  width:80px;
+  height: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3vh;
+  background-image: url('./Images/aihuman.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fiveImg{
+  width:80px;
+  height: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3vh;
+  background-image: url('./Images/teachings.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.twoImg{
+  width:80px;
+  height: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url('./Images/technology.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fourImg{
+  width:80px;
+  height: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url('./Images/process.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cardText{
+  text-align: center;
+  padding-top: 3%;
+  font-weight: bold;
+}
+
+.cardtextTwo{
+  height: 19vh;
+  width: 15vw;
+  text-align: center;
+  padding-top: 8vh;
+  font-weight: bold;
+  margin-left: -2px;
+}
+
+.cardTwoImg{
+  width: 15vw;
+  height: 17vh;
+  padding-top: 3vh;
+}
+
+.headTwo{
+  width: 15vw;
+  height: 4vh;
+  background-color: rgb(224, 9, 109);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  position: relative;
+}
+
+.headTwo span{
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  position: absolute;
+  left: 6.3vw;
+  top: 0vh;
+  padding-top: 3px;
+  font-weight: bold;
+  font-size: 20px;
+  background-color:rgb(180, 210, 219);
+  color: rgb(224, 9, 109);
+}
+
+.green{
+  width: 15vw;
+  height: 5vh;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  position: relative;
+  background-color: green;
+}
+
+.green span{
+  color: green;
+}
+
+.shdow{
+  box-shadow: 20px 0 20px -20px black;
+}
+
+.contDiv{
+  width: 100vw;
+  height: 70vh;
+  padding-top: 3%;
+}
+
+.contForm{
+  width: 80vw;
+  height: 60vh;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  border: 1px solid black;
+}
+
+.contText{
+  width: 35vw;
+  height: 60vh;
+  text-align: center;
+}
+
+.texttouch{
+  margin-top: 20vh;
+}
+
+.hrvert{
+  border-left: 3px solid gray;
+  height: 350px;
+  margin-top: 7vh;
+}
+
+.contDet{
+  width: 40vw;
+  height:60vh;
+  margin-left: 5%;
+}
+
+.formData{
+  width: 32vw;
+  height: 60vh;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10%;
+}
+
+input{
+  width: 30vw;
+  height: 5vh;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+input:focus{
+  border: 1px solid gray;
+}
+
+.register{
+  width: 30vw;
+  height: 5vh;
+  background-color: rgb(45, 45, 79);
+  color: white;
+  margin-top: 5%;
+  border: none;
+}
+
+.foot{
+  width: 100vw;
+  height: 50vh;
+  background-color: lightgray;
+}
+
+.footCent{
+  width: 80vw;
+  height: 45vh;
+  padding-top: 8vh;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.contOne{
+  width: 30vw;
+  height: 30vh;
+}
+
+.contTwo{
+  width: 10vw;
+  height: 30vh;
+  text-align: center;
+}
+
+.contThree{
+  width: 20vw;
+  height: 30vh;
+  text-align: center;
+}
+
+.contFour{
+  width: 20vw;
+  height: 30vh;
+  padding-left: 4%;
+}
+
+.locIcon{
+  width: 25px;
+  height: 25px;
+  margin-right: 2%;
+  background-image: url('https://www.freeiconspng.com/uploads/facebook-logo-new-8.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.iconTwo{
+  width: 25px;
+  height: 25px;
+  padding: 5px;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/768px-LinkedIn_icon.svg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.copyRight{
+  width: 100vw;
+  height: 10vh;
+  background-color: black;
+  color: white;
+  padding: 3vh 0vw 0vh 10vw;
+}
+
+.registerLogin{
+  margin-left: 5vw;
+  width: 20vw;
+  height: 5vh;
+  background-color: rgb(45, 45, 79);
+  color: white;
+  margin-top: 5%;
+  border: none;
+}
+
+.dwnDiv{
+  width: 80vw;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5vh;
+}
+
+.dBtn{
+  width: 20vw;
+  height: 5vh;
+  background-color: rgb(45, 45, 79);
+  color: white;
+}
+
+.downloadBtn{
+  width: 10vw;
+  height: 5vh;
+  margin-left: 60vw;
+  background-color: rgb(45, 45, 79);
+  color: white;
+}
+
+.adminScreen{
+  width: 60vw;
+  min-height:50vh;
+  margin-top: 3vh;
+  margin-bottom: 5vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.table{
+  border: 1px solid rgb(210, 208, 208) !important;
+
+}
+
+.regUpdate{
+  width: 20vw;
+  height: 5vh;
+  background-color: rgb(45, 45, 79);
+  color: white;
+  margin-left: 28vw;
+  margin-right: auto;
+  border: none;
+}
+
+.adBtn{
+  border: none;
+  background-color: none;
+  border-radius: 10px;
+  background-color: white;
+}
